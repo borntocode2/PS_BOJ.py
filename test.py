@@ -1,2 +1,4 @@
-i = 121
-print(i//100)
+answer = []
+part = "leop"
+answer.append(part)
+print(*answer)

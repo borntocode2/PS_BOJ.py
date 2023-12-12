@@ -1,6 +1,3 @@
-a = 113
-b = "13"
-if b in str(a):
-    print("YES")
-else:
-    print("NO")
+a = ['11', '1']
+a.sort()
+print(a)

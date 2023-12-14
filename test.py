@@ -1,3 +1,2 @@
-a = ['11', '1']
-a.sort()
-print(a)
+alist = [[] for _ in range(30)]
+print(alist)

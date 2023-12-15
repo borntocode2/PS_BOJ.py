@@ -1,2 +1,7 @@
-alist = [[] for _ in range(30)]
-print(alist)
+dict = {}
+
+alist = ["banana"]
+key = alist[0]
+dict[key] = 4
+
+print(dict)

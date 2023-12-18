@@ -7,11 +7,13 @@
 # 값 +
 # 없는 경우 생성,
 # 딕셔너리는 dict[str(clothes)[i][-1]] = count(clothes[i]) 일 듯,
+# 경우의 수 생각해볼 
 def solution(clothes):
     answer_plus = 0
     answer_multi = 1
     answer = 0
     dict = {}
+
     for i in range(len(clothes)):
         key = clothes[i][-1] 
         if key in dict:
@@ -19,9 +21,11 @@ def solution(clothes):
             dict[key] = origin_value + len(clothes[i]) - 1
         else:
             dict[key] = len(clothes[i]) - 1
+
     for i in dict.values():  # key를 모를 때, 딕셔너리를 순회하면서 값을 확인 할 수 있음.
-        answer_plus += i
-        answer_multi *= i
-    answer = answer_plus + answer_multi
+        answer_multi *= i+1  # 조합
+    print(dict)
+    answer = answer_multi -1
+
     return answer
-print(solution([["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]]))
+print(solution([["a", "headgear"], ["b", "headgear"], ["c", "eyewear"], ["d", "eyewear"], ["e", "face"], ["f", "face"]]))

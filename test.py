@@ -1,7 +1,3 @@
 dict = {}
-
-alist = ["banana"]
-key = alist[0]
-dict[key] = 4
-
-print(dict)
+dict["123"] = 44
+print(dict["123"])

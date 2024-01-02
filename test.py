@@ -1,4 +1,3 @@
-answer = []
-part = "leop"
-answer.append(part)
-print(*answer)
+dict = {}
+dict["123"] = 44
+print(dict["123"])

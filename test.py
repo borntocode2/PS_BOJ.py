@@ -1,3 +1,2 @@
-dict = {}
-dict["123"] = 44
-print(dict["123"])
+while 3:
+    print(2)

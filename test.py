@@ -1,8 +1,3 @@
-<<<<<<< Updated upstream
-print(1 % 2)
-=======
-N = 4
-list = [10, 100, 1000, 10000]
-for i in range(N):
-    print(list[i])
->>>>>>> Stashed changes
+underwater = [[0 for _ in range(5)] for _ in range(5)]
+underwater.clear()
+print(underwater)

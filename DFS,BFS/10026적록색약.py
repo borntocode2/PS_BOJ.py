@@ -57,5 +57,10 @@ for i in range(N):
                     
 print(answer, sec_answer)
                         
+#N = 4
+#for i in range(N):
+#a b c d
+#e f g h
+#i j k l
 
 

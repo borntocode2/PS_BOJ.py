@@ -1,3 +1,2 @@
-underwater = [[0 for _ in range(5)] for _ in range(5)]
-underwater.clear()
-print(underwater)
+for i in range(2, 3):
+    print("123")

@@ -1,2 +1,2 @@
-for i in range(2, 3):
-    print("123")
+a = "hel"
+b ="23"

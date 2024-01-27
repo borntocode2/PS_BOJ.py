@@ -34,5 +34,5 @@ for lst in answer: #모음이 1개이상, 자음 2개이상이면 ans에 값을 
         ans.append(lst)
 
 for i in ans:
-    print(*i, sep = "") # 출력한 값에  공백이 있다면 sep ="" 으로 없애주면됨 -> sep은 none or string값으로 만 가능
+    print(*i, sep = "") # 출력한 값에  공백이 있다면 sep ="" 으로 없애주면 됨 -> sep은 none or string값으로 만 가능
 

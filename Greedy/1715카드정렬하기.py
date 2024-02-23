@@ -4,9 +4,9 @@ sum = 0
 N = int(input())
 for i in range(N):
      heapq.heappush(heap, int(input())) # heapq.heappush 는 변수에 따라 변하지 않는 함수
-     
+
 while len(heap) >= 2:
-    a = heapq.heappop(heap)
+    a = heapq.heappop(heap)          #heapq.heappop 는 변수에 따라 변하지 않는 함수
     b = heapq.heappop(heap)
     tempsum = a + b
     heapq.heappush(heap, tempsum)

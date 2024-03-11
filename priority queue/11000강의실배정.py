@@ -16,8 +16,3 @@ for i in range(1, N):
         hq.heappush(hip, arr[i][1])
 
 print(len(hip))
-#반례
-#3
-#1 4
-#2 3
-#3 5

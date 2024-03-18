@@ -4,6 +4,7 @@ import heapq as hq
 import sys
 left_hip = []
 right_hip = [] # maxheap
+input = sys.stdin.readline
 N = int(input())
 
 for i in range(N):

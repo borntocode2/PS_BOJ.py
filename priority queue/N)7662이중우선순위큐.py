@@ -4,16 +4,18 @@ T = int(input())
 
 for cases in range(T):
     N = int(input())
+    checkheap = [False] * [2147483649]
     answer = []
     maxheap = []
     minheap = []
     for i in range(N):
-
         A = list(input().split())
         action = A[0]
         number = int(A[1])
+    
         if action == "I": # I = in 연산일 때,
             hq.heappush(minheap, number)
+            
             hq.heappush(maxheap, -number)
         else:             # D = delete 연산일 때, 1이면 최댓값, -1면 최솟값
             if len(maxheap) > 0 and len(minheap) > 0:
@@ -53,3 +55,5 @@ D -1
 I 333
 
 '''
+2     
+7

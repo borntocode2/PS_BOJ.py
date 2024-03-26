@@ -1,6 +1,3 @@
-import sys
-import heapq
-ar = []
-ar.append(1)
-ar = []
-print(ar)
+cheak = [False] * 17
+cheak[10] = True
+print(cheak)

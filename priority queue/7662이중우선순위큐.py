@@ -16,7 +16,7 @@ for cases in range(T):
             hq.heappush(minheap, number)
             hq.heappush(maxheap, -number)
         else:             # D = delete 연산일 때, 1이면 최댓값, -1면 최솟값
-            if len(maxheap) and len(minheap) > 0:
+            if len(maxheap) > 0 and len(minheap) > 0:
                 if number == 1:
                     hq.heappop(maxheap)
                 else:

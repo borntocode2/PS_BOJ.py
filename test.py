@@ -1,3 +1,3 @@
-cheak = [False] * 17
-cheak[10] = True
-print(cheak)
+arr = input().split()
+
+print(arr[1])

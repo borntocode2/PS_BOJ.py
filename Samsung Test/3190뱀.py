@@ -11,7 +11,7 @@ for i in range(K): #사과 위치 저장
     MAP[a][b] = 1
 L = int(input())
 
-for i in range(N): #뱀의 방향 정보
+for i in range(N): #뱀의 방향 정보 BFS이용
     arr = input().split()
     hq.heappush(heap, arr)
 
